@@ -32,7 +32,7 @@ function isSafe(row) {
     return false;
 }
 
-fs.readFile('data.txt', 'utf8',(err, data) => {
+fs.readFile('02.txt', 'utf8',(err, data) => {
     if (err) {
         console.error('Error reading file:', err);
         return;
