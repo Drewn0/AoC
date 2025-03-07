@@ -10,6 +10,8 @@ function calculateDistance(left, right) {
     }
     
     return total_distance;
+
+//part 1
 }
 fs.readFile('01.txt', 'utf8',(err, data) => {
     if (err) {
@@ -27,7 +29,7 @@ fs.readFile('01.txt', 'utf8',(err, data) => {
 console.log(calculateDistance(left, right));
 });
 
-
+//part 2
 fs.readFile('01.txt', 'utf8',(err, data) => {
     if (err) {
         console.error('Error reading file:', err);
