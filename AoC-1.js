@@ -11,7 +11,7 @@ function calculateDistance(left, right) {
     
     return total_distance;
 }
-fs.readFile('data.txt', 'utf8',(err, data) => {
+fs.readFile('01.txt', 'utf8',(err, data) => {
     if (err) {
         console.error('Error reading file:', err);
         return;
@@ -28,7 +28,7 @@ console.log(calculateDistance(left, right));
 });
 
 
-fs.readFile('data.txt', 'utf8',(err, data) => {
+fs.readFile('01.txt', 'utf8',(err, data) => {
     if (err) {
         console.error('Error reading file:', err);
         return;
